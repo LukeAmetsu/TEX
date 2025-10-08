@@ -1,0 +1,112 @@
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{csquotes}
+\usepackage{enumitem}		% Controle avançado de listas
+\usepackage{amsmath, amssymb, amsthm} % Pacotes matemáticos
+\usepackage{float}				% para figuras [H]
+\usepackage{multirow}			% para tabelas com células que ocupam mais de uma linha
+\usepackage{makecell}			% para tabelas com células quebras mais de uma linha
+\usepackage{array}				% para tabelas com células
+% ---
+
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+
+
+
+% --- Carrega o biblatex com as opções equivalentes ---
+\usepackage[
+    backend=biber,
+    style=abnt,
+    backref=true,      % <-- Ativa as referências de volta (substitui o pacote backref)
+    maxcitenames=3,  % <-- Substituto para "etalcite=4". Mostra até 3 autores, acima disso usa "et al."
+    maxbibnames=99   % <-- Substituto para "etallist=0". Mostra todos os autores na lista final.
+]{biblatex}
+\addbibresource{REFERENCIAS.bib} % Comando para declarar o arquivo .bib
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+\DefineBibliographyStrings{portuguese}{%
+  backrefpage  = {Citado na página},   % Texto para uma única citação em uma página
+  backrefpages = {Citado nas páginas}, % Texto para múltiplas citações em várias páginas
+}
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Projeto de Pesquisa\\ Cisalhamento em Lajes Espessas}
+\autor{Lucas Mateus Farias de Barros}
+\local{Brasil}
+\data{2025}
+\instituicao{%
+  Universidade de São Paulo
+  \par
+  Escola Politécnica
+  \par
+  Programa de Pós-Graduação}
+\tipotrabalho{Projeto de Pesquisa (Mestrado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Este projeto de pesquisa busca investigar o cisalhamento em lajes com espessura superior a 60 centímetros e o comportamento dessas estruturas. 
+Será proposto uma atualização à ABNT NBR 6118, alinhando-a as normas internacionais e garantindo segurança em projetos estruturais complexos.}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{projeto de pesquisa}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+\usepackage{hyperref}

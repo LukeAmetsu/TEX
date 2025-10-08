@@ -1,0 +1,322 @@
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+%\pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+\cleardoublepage
+% ---
+% Folha de rosto
+% ---
+\imprimirfolhaderosto
+% ---
+
+% ---
+% NOTA DA ABNT NBR 15287:2011, p. 4:
+%  ``Se exigido pela entidade, apresentar os dados curriculares do autor em
+%     folha ou página distinta após a folha de rosto.''
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+%  \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+%  \item[$ \Gamma $] Letra grega Gama
+%  \item[$ \Lambda $] Lambda
+ % \item[$ \zeta $] Letra grega minúscula zeta
+  %\item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução
+% ----------------------------------------------------------
+\chapter[Introdução]{Introdução}
+
+A \textcite{NBR6118:2023} em sua revisão de 2023, “Projeto de Estruturas de Concreto - Procedimento”, é a principal norma regulatória brasileira para projetos estruturais em concreto simples, armado e protendido, estabelecendo os requisitos gerais de análise e verificação.
+
+O \textbf{concreto simples} é um material não homogeneo, composto de agregados graúdos, agregados miúdos, cimento como aglomerante e água. É um execelente composto dada a sua alta resistência à compressão, entretanto é extremamente frágil à tração e por isso tem seu emprego limitado. Ao combinar o concreto simples com barras de aço, tem-se o \textbf{concreto armado}, que, a partir da interaão aço e concreto, permite o ganho de resistencia tanto a tração como a compressão, resultando em um comportamento mais dúctil. A introdução prévide de esforços de compressão no concreto, por meio de cordoalhas de aço, altera o estado de tensões e dá origem ao \textbf{concreto protendido}, permite a otimização do uso do material, reduzindo fissuração e deformações, além de possibilitar vãos maiores e seções mais esbeltas.\cite{Araujo2023}
+
+
+De acordo com a \textbf{Teoria do Campo de Compressão Modificada} (\textit{Modified Compression Field Theory - MCFT}), a resistência ao cisalhamento após a fissuração depende diversas variáveis como:
+
+\begin{alineas}
+\item a contribuição da zona de concreto comprimido não fissurada;
+\item o efeito de pino da armadura longitudinal (\textit{dowel action});
+\item o atrito entre as faces da fissura, o engrenamento dos agregados (\textit{aggregate interlock}).
+\end{alineas}.
+
+\cite{Vecchio1986}
+
+Elementos mais espessos desenvolvem fissuras com aberturas maiores, as quais reduzem a eficácia do engrenamento dos agregados, pois a capacidade de transferir tensões de cisalhamento através da interface rugosa da fratura diminui. Consequentemente, a contribuição desta parcela para a resistência total é menor em elementos mais espessos, resultando em uma menor resistência ao cisalhamento. De maneira geral, esse comportamento é chamado de efeito de escala (\textit{size effect}).
+
+A \textbf{NBR 6118:2023}, em seu item 19.4 -- \textit{“Força cortante em lajes e elementos lineares com $b_w \geq 5d$”} -- estabelece os critérios para verificação da resistência ao cisalhamento em lajes. Em particular, o item 19.4.1 apresenta os critérios para lajes sem armadura transversal, introduzindo o fator $k$, definido como:
+
+\begin{alineas}
+    \item para elementos em que menos de 50\% da armadura inferior está ancorada até o apoio: $k = 1$;
+    \item para os demais casos: $k = 1{,}6 - d$, não menor que $1{,}0$, sendo $d$ expresso em metros.
+\end{alineas}
+
+A origem desse coeficiente está associada a estudos experimentais conduzidos por \textcite{Hedman1975shear}, que identificaram a redução da resistência nominal ao cisalhamento com o aumento da altura efetiva ($d$), fenômeno conhecido como \textit{efeito de escala} (\textit{size effect}). Esse comportamento decorre da natureza quase-frágil do concreto, cuja resistência média ao cisalhamento diminui em elementos de maior profundidade devido à propagação instável de fissuras diagonais.
+
+Embora a \textbf{NBR 6118} não explicite a origem empírica do fator $k$, a formulação atual está alinhada a modelos propostos pelo \textit{CEB-FIP Model Code} e pelo \textit{Eurocode 2}, e visa incorporar, de forma simplificada, o efeito de escala no dimensionamento de lajes sem armadura de cisalhamento. ENtretanto, conforme orientações práticas do \textbf{Instituto Brasileiro do Concreto (IBRACON)}, as equações presentes na norma não devem ser aplicadas a lajes espessas, uma vez que o modelo empírico foi calibrado para lajes de espessura usual, ou seja, inferior a 60 centímetros.
+
+Atualmente, com o aumento de obras de infraestrutura, como as de linhas de metrô em São Paulo e outras cidades brasileiras, torna-se comum a presença de lajes maciças com espessura superior a 60 centímetros. Nesse caso é comum o uso do Eurocode 2, visto que a norma incorporou, em suas revisões mais recentes, o fator de escala para lajes espessas. 
+
+O \textcite{ACI318:2019}, em sua versão de 2019, também introduziu o efeito de escala, (\(\lambda_s\)) que pode reduzir a resistência ao cisalhamento em lajes usuais em até 40\% e em fundações diretas espessas em até 2,5 vezes, têm gerado debate técnico significativo na comunidade internacional. Pesquisadores como \textcite{Marquesi2021} apontam que a calibração deste fator foi realizada com base em um banco de dados que misturou indiscriminadamente ensaios de faixas de lajes e uma grande quantidade de vigas de pequenas dimensões, resultando em variabilidades muito distintas quando separados.
+
+Esta abordagem metodológica é questionável, pois lajes e vigas apresentam comportamentos estruturais substancialmente diferentes: em lajes, o volume de concreto envolvido na ruptura é muito maior que em vigas pequenas, o que implica em menor variabilidade da resistência média do concreto e, consequentemente, maior capacidade resistente. Esta controvérsia reforça a urgência de reavaliar criticamente os critérios adotados nacionalmente.
+
+Diante do exposto, torna-se fundamental investigar o comportamento ao cisalhamento de lajes espessas no contexto da construção brasileira. Esta pesquisa justifica-se pela necessidade de propor uma atualização para a ABNT NBR 6118 que alinhe a prática nacional às normas internacionais, com o objetivo de garantir a segurança estrutural e promover a otimização de projetos, evitando tanto o risco de rupturas frágeis quanto o superdimensionamento.
+
+
+
+% ----------------------------------------------------------
+% Capitulo de textual  
+% ----------------------------------------------------------
+\chapter{Objetivos}
+\section{Objetivo Geral}
+
+Investigar o comportamento ao cisalhamento de lajes espessas com o intuito de propor ajustes à formulação da ABNT NBR 6118, assegurando sua aplicabilidade em estruturas nacionais com elevada complexidade.
+
+\section{Objetivos Específicos}
+\begin{alineas}
+	\item Revisão bibliográfica e normativa sobre o cisalhamento em elementos de concreto sem armadura transversal, com ênfase na evolução dos métodos de cálculo e posteriormente nos modelos mecânicos que fundamentam o efeito de escala e outros parâmetros influentes;
+	\item A partir de bancos de dados experimentais, especialmente o de \textcite{Kuchma2019}, será avaliado o comportamento e os modos de ruptura em Estados Limites Últimos (ELU);
+	\item Avaliar as formulações propostas pela \textcite{NBR6118:2023}, \textcite{CEN2004}, \textcite{ACI318:2019} e \textcite{FIB:2020} do ponto de vista da resistência de lajes espessas;
+	\item Desenvolver e propor uma formulação, em uma ou duas equações a partir de uma das normas existentes, para a resistência ao cisalhamento que incorpore de forma explícita e mecanicamente consistente o efeito de escala e outros parâmetros relevantes, visando a potencial inclusão na ABNT NBR 6118;
+	\item Calibrar os coeficientes parciais de segurança da formulação proposta utilizando a Teoria da Confiabilidade Estrutural, para garantir um nível de segurança (índice de confiabilidade $\beta$) consistente com os alvos normativos para modos de ruína frágeis.
+\end{alineas}	
+
+
+\chapter{Hipótese de Pesquisa}
+Com base na literatura recente e nas discussões normativas internacionais, propõem-se as seguintes hipóteses:
+
+\section{Hipótese 1}
+A resistência ao cisalhamento de lajes espessas (> 60 cm) sem armadura transversal é superestimada pelas fórmulas atuais da ABNT NBR 6118:2023, devido à ausência de uma consideração adequada do efeito de escala (size effect), fenômeno já incorporado em algumas normas internacionais. A pesquisa buscará quantificar essa superestimação, comparando os resultados previstos pela norma brasileira com dados experimentais de lajes espessas, e proporá uma formulação revisada que incorpore esse efeito de maneira mecanicamente consistente e demostrará a validade da \textcite{NBR6118:2023} para lajes esbeltas.
+\section{Hipótese 2}
+A variabilidade da resistência ao cisalhamento em lajes espessas, medida pelo coeficiente de variação (COV) dos resultados experimentais normalizados por um modelo teórico robusto, apresenta um comportamento distinto daquele observado em elementos esbeltos. A pesquisa investigará se esta variabilidade é maior ou menor, quantificando o impacto do volume de concreto na dispersão estatística da resistência e suas implicações para os coeficientes de segurança. 
+\section{Hipótese 3}
+A calibração da equação e formulação da norma brasileira, considerando bancos de dados específicos de lajes de grande espessura, evitando o uso desnecessário de armadura transversal.
+
+\chapter{Metodologia}
+A seguinte metodologia será seguida para a produção da pesquisa.
+
+\begin{alineas}
+    \item Estudo detalhado da evolução histórica e das bases conceituais das disposições de cisalhamento nas normas ABNT NBR 6118, Eurocode 2, ACI 318 e fib Model Code 2010;
+    \item A análise crítica das teorias, como:
+	\begin{alineas}
+		\item Teoria do Campo de Compressão Modificada (MCFT);
+		\item Modelos de Biela e Tirante e Modelos de Dente (Tooth Models);
+		\item a Teoria da Fissura Crítica de Cisalhamento (CSCT).
+	\end{alineas}\noindent que servirão de base para o desenvolvimento de uma formulação mecanicamente consistente para a ABNT NBR 6118, em vez de uma abordagem empírica;
+    \item Será utilizado como base principal o banco de dados desenvolvido e analisado pelo Comitê Conjunto ACI-ASCE 445 e pelo Comitê Alemão para Concreto Estrutural (\textit{DAbStb}), que fundamentou as alterações do ACI 318-19, conforme detalhado por \textcite{Kuchma2019}. Serão selecionados ensaios com lajes de espessura superior a 60 centímetros para a análise;
+    \item Será realizada uma análise estatística completa das razões para cada norma, calculando a média (indicador de acurácia), o desvio padrão e o coeficiente de variação (COV, indicador de precisão);
+    \item Desenvolvimento de proposições que possam ser incorporadas à norma brasileira, incluindo a aplicabilidade para elementos estruturais espessos;
+    \item A calibração dos coeficientes parciais de segurança da nova proposta será realizada com base na Teoria da Confiabilidade Estrutural. Serão definidos um estado limite de falha e as variáveis aleatórias relevantes, como a resistência do concreto e as cargas atuantes. O objetivo será atingir um índice de confiabilidade ($\beta$) alvo, consistente com o que é preconizado para rupturas frágeis, similar ao adotado na ABNT NBR 6118;
+    \item Para o caso de uma única formulação para a resistência ao cisalhamento de elementos não armados, a fórmula será calibrada para não modificar o resultado atual para lajes esbeltas, dado o ótimo desenho histórico da \textcite{NBR6118:2023} nesse campo;
+    \item Avaliar, a partir dos dados de variabilidade da resistência, espessura, posição do aço no concreto, entre outros, se a formulação obtida se mantém segura para a variabilidade presente na aplicação real desse tipo de estrutura.
+\end{alineas}
+Para a execução deste projeto de pesquisa, serão necessárias as seguintes infraestruturas:
+\begin{alineas}
+	\item Acesso a bases de dados acadêmicas e técnicas, como Scopus, Web of Science, Google Scholar, entre outras, para a revisão bibliográfica;
+	\item Software estatístico, como R ou Python, para a análise dos dados experimentais.
+\end{alineas}
+
+
+\chapter{Cronograma}
+
+O cronograma previsto para a execução do projeto de pesquisa é apresentado a seguir:
+
+\begin{alineas}
+    \item Janeiro 2026 à Abril 2026 - Revisão bibliográfica;
+    \item Maio 2026 à Agosto 2026 - Análise do banco de dados;
+    \item Setembro 2026 à Novembro 2026 - Preparação da documentação necessária para a qualificação;
+    \item Dezembro 2026 à Março 2027 - Análise inicial da formulação proposta;
+    \item Abril 2027 à Agosto 2027 - Verificação da formulação proposta;
+    \item Setembro 2027 à Dezembro 2027 - Análise do índice de confiabilidade $\beta$ para ruptura frágeis e calibração dos coeficientes;
+    \item Janeiro 2028 à Setembro 2028 - Produção da dissertação.
+\end{alineas}
+
+
+
+
+
+% ----------------------------------------------------------
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+% ----------------------------------------------------------
+
+
+% ---
+% Finaliza a parte no bookmark do PDF
+% para que se inicie o bookmark na raiz
+% e adiciona espaço de parte no Sumário
+% ---
+\phantompart
+
+% ---
+% Conclusão
+% ---
+\chapter[Considerações finais]{Considerações finais}
+Este projeto de pesquisa aborda uma lacuna crítica na engenharia estrutural brasileira: a verificação do cisalhamento em lajes espessas ($\geq$ 60 centímetros). Conforme detalhado, a extrapolação das fórmulas da ABNT NBR 6118:2023 para tais estruturas pode comprometer a segurança, uma preocupação crescente diante da execução de obras de infraestrutura cada vez mais complexas, como linhas de metrô. A necessidade de alinhar a prática nacional às normas internacionais, que já incorporam o efeito de escala, justifica a presente investigação.
+
+
+Ao final desta pesquisa, espera-se obter como principal resultado uma proposta de formulação para a resistência ao cisalhamento em lajes espessas, apta a ser incorporada na ABNT NBR 6118. Esta contribuição visa impactar a engenharia nacional em três frentes: 
+
+\begin{alineas}
+	\item Atualização normativa, alinhando a norma brasileira com o estado da arte internacional;
+	\item Fornecimento de uma ferramenta de verificação mais segura e precisa para engenheiros projetistas, evitando tanto o superdimensionamento quanto o risco de rupturas frágeis;
+	\item Aprofundamento do entendimento sobre o efeito de escala e o comportamento de estruturas de concreto em situações não cobertas adequadamente pela literatura técnica nacional.
+\end{alineas}
+
+Em suma, este trabalho não apenas busca solucionar um problema técnico pontual, mas também fortalecer a autonomia e a segurança da engenharia estrutural brasileira, garantindo que suas normas e práticas evoluam em consonância com os desafios impostos pelas grandes obras contemporâneas.
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\nocite{*}
+
+%\bibliography{REFERENCIAS}
+\printbibliography
+
+
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+% ---
+% Inicia os apêndices
+% ---
+%\begin{apendicesenv}
+
+% Imprime uma página indicando o início dos apêndices
+%\partapendices
+
+% ----------------------------------------------------------
+%\chapter{Quisque libero justo}
+% ----------------------------------------------------------
+
+%\lipsum[50]
+
+% ----------------------------------------------------------
+%\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
+%ac pretium ante justo a nulla curabitur tristique arcu eu metus}
+% ----------------------------------------------------------
+%\lipsum[55-57]
+
+%\end{apendicesenv}
+% ---
+
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+
+% ---
+% Inicia os anexos
+% ---
+%\begin{anexosenv}
+
+% Imprime uma página indicando o início dos anexos
+%\partanexos
+
+% ---
+%\chapter{Morbi ultrices rutrum lorem.}
+% ---
+%\lipsum[30]
+
+% ---
+%\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
+%parturient montes nascetur ridiculus mus}
+% ---
+
+%\lipsum[31]
+
+% ---
+%\chapter{Fusce facilisis lacinia dui}
+% ---
+
+%\lipsum[32]
+
+%\end{anexosenv}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+
+%\phantompart
+
+%\printindex
+
+
+\end{document}
