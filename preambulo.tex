@@ -6,9 +6,9 @@
 % Pacotes fundamentais 
 % ---
 \usepackage{lmodern}			% Usa a fonte Latin Modern
-\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
-\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
-\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage[T1]{fontenc}		% Seleção de códigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificação do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indent o primeiro parágrafo de cada seção.
 \usepackage{color}				% Controle das cores
 \usepackage{graphicx}			% Inclusão de gráficos
 \usepackage{microtype} 			% para melhorias de justificação
@@ -19,16 +19,11 @@
 \usepackage{multirow}			% para tabelas com células que ocupam mais de uma linha
 \usepackage{makecell}			% para tabelas com células quebras mais de uma linha
 \usepackage{array}				% para tabelas com células
-% ---
 
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
 \usepackage{lipsum}				% para geração de dummy text
-% ---
-
-
-
 
 % --- Carrega o biblatex com as opções equivalentes ---
 \usepackage[
@@ -40,18 +35,31 @@
 ]{biblatex}
 \addbibresource{REFERENCIAS.bib} % Comando para declarar o arquivo .bib
 
+\usepackage{pgfgantt}
+\usepackage{hyperref}  % Moved earlier; load as one of the last packages for compatibility
+
 % --- 
 % CONFIGURAÇÕES DE PACOTES
 % --- 
 
+% Define bibliography strings after loading biblatex
 \DefineBibliographyStrings{portuguese}{%
   backrefpage  = {Citado na página},   % Texto para uma única citação em uma página
   backrefpages = {Citado nas páginas}, % Texto para múltiplas citações em várias páginas
 }
 
-% ---
+% Define custom Gantt link type after loading pgfgantt
+\newganttlinktype{straight}{
+  \ganttsetstartanchor{on right=1}
+  \ganttsetendanchor{on left=0}
+  \draw[/pgfgantt/link]
+    ([xshift=-0.2pt]\xLeft, \yUpper) --
+    (\xRight, \yLower);  % chktex 8  (suppresses false positive on dash in TikZ path)
+}
+
+
 % Informações de dados para CAPA e FOLHA DE ROSTO
-% ---
+
 \titulo{Projeto de Pesquisa\\ Cisalhamento em Lajes Espessas}
 \autor{Lucas Mateus Farias de Barros}
 \local{Brasil}
@@ -71,11 +79,12 @@ Será proposto uma atualização à ABNT NBR 6118, alinhando-a as normas interna
 
 % ---
 % Configurações de aparência do PDF final
+% ---
 
 % alterando o aspecto da cor azul
 \definecolor{blue}{RGB}{41,5,195}
 
-% informações do PDF
+% informações do PDF (after loading hyperref)
 \makeatletter
 \hypersetup{
      	%pagebackref=true,
@@ -105,8 +114,7 @@ Será proposto uma atualização à ABNT NBR 6118, alinhando-a as normas interna
 \setlength{\parskip}{0.2cm}  % tente também \onelineskip
 
 % ---
-% compila o indice
+% compila o índice
 % ---
 \makeindex
 % ---
-\usepackage{hyperref}

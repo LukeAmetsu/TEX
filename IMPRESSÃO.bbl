@@ -76,6 +76,40 @@
       \field{title}{{ACI} 318-19}
       \field{year}{2019}
     \endentry
+    \entry{Araujo2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=add59189b7ec4c5c795f2575a6fd98ba}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={José\bibnamedelimb Milton\bibnamedelima de},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Dunas}%
+      }
+      \strng{namehash}{add59189b7ec4c5c795f2575a6fd98ba}
+      \strng{fullhash}{add59189b7ec4c5c795f2575a6fd98ba}
+      \strng{fullhashraw}{add59189b7ec4c5c795f2575a6fd98ba}
+      \strng{bibnamehash}{add59189b7ec4c5c795f2575a6fd98ba}
+      \strng{authorbibnamehash}{add59189b7ec4c5c795f2575a6fd98ba}
+      \strng{authornamehash}{add59189b7ec4c5c795f2575a6fd98ba}
+      \strng{authorfullhash}{add59189b7ec4c5c795f2575a6fd98ba}
+      \strng{authorfullhashraw}{add59189b7ec4c5c795f2575a6fd98ba}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5ª Edição}
+      \field{title}{Curso de Concreto Armado}
+      \field{volume}{1}
+      \field{year}{2023}
+    \endentry
     \entry{NBR6118:2023}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=38a912c39deb03f17ea4697c1f80c809}{%
@@ -362,6 +396,47 @@
       \field{title}{fib Model Code for Concrete Structures 2020}
       \field{year}{2024}
     \endentry
+    \entry{Hedman1975shear}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b9b24ad98bc891ac99b7bdd78dd1b861}{%
+           family={Hedman},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ac538a0a51456c19b95cd271b438e5a}{%
+           family={Losberg},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Division of Concrete Structures, Chalmers University of Technology}%
+      }
+      \list{location}{1}{%
+        {Gothenburg, Sweden}%
+      }
+      \strng{namehash}{dcdce922d38904408dbc8901c785f633}
+      \strng{fullhash}{dcdce922d38904408dbc8901c785f633}
+      \strng{fullhashraw}{dcdce922d38904408dbc8901c785f633}
+      \strng{bibnamehash}{dcdce922d38904408dbc8901c785f633}
+      \strng{authorbibnamehash}{dcdce922d38904408dbc8901c785f633}
+      \strng{authornamehash}{dcdce922d38904408dbc8901c785f633}
+      \strng{authorfullhash}{dcdce922d38904408dbc8901c785f633}
+      \strng{authorfullhashraw}{dcdce922d38904408dbc8901c785f633}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{75:3}
+      \field{title}{Shear strength of reinforced concrete slabs}
+      \field{type}{Publication}
+      \field{year}{1975}
+      \field{dateera}{ce}
+    \endentry
     \entry{Kuchma2019}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9f4803223bd7bab61ad290b44801df45}{%
@@ -514,7 +589,6 @@
       \field{title}{One way shear and punching shear without stirrups}
       \field{year}{2021}
       \field{dateera}{ce}
-      \true{nocite}
     \endentry
     \entry{Maues2020}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -635,6 +709,50 @@
       \true{nocite}
       \field{pages}{440\bibrangedash 450}
       \range{pages}{11}
+    \endentry
+    \entry{Muttoni2023}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3e019eca099e576cd14b70085502fffb}{%
+           family={Muttoni},
+           familyi={M\bibinitperiod},
+           given={Aurelio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f809cffa2170349b825899d6fbf9c771}{%
+           family={Simões},
+           familyi={S\bibinitperiod},
+           given={João\bibnamedelima Tiago},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IBRACON - Instituto Brasileiro do Concreto}%
+      }
+      \strng{namehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{fullhash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{fullhashraw}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{bibnamehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authorbibnamehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authornamehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authorfullhash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authorfullhashraw}{f378aaa45afbc81f964ad2608dd1f358}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Critical Shear Crack Theory (CSCT) has been developed since 1985 to assess the shear resistance of members without shear reinforcement and the punching shear resistance of reinforced concrete slabs in a rational manner. The main idea of the CSCT is that the shear resistance is governed by the development of a critical shear crack, its geometry and its kinematics. Recent shear tests with detailed measurements have confirmed that the shear force can be carried through the critical shear crack by a combination of aggregate interlocking, residual tensile strength of concrete, dowel action of the longitudinal reinforcement, inclination of the compression zone and activation of the shear reinforcement crossed by the critical shear crack if present. On the basis of advanced constitute laws, all these contributions can be calculated as a function of the crack geometry and its kinematic. Simplifications of the resulting general formulations have been implemented in several standards including the fib Model Code 2010 and, in its recent closed-form format, in the second generation of the European Standard for Concrete Structures. The generality of the models allows accounting for several materials and cases, as for instance the presence of axial forces, fiber reinforced concrete, non-metallic reinforcements and designing strengthening using several techniques. This document presents the historical framework of the development of the theory, followed by a short presentation of its most up-to-date refined models. The derivation of closed-form solutions based on the CSCT and how it leads to expressions in a format similar to the current European Standard for Concrete Structures is also discussed. Eventually, for the case of punching, some recent developments are shown in what refers the capability of the refined mechanical model to capture the relationship between the acting punching load, the rotation and the shear deformation during loading and at failure.}
+      \field{issn}{19834195}
+      \field{issue}{3}
+      \field{journaltitle}{Revista IBRACON de Estruturas e Materiais}
+      \field{title}{Shear and punching shear according to the Critical Shear Crack Theory: background, recent developments and integration in codes}
+      \field{volume}{16}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1590/S1983-41952023000300002
+      \endverb
+      \keyw{codes,levels-of-approximation,mechanical model,punching shear,shear}
     \endentry
     \entry{Rinke2023}{incollection}{}{}
       \name{author}{1}{}{%
@@ -809,7 +927,6 @@
       \field{volume}{83}
       \field{year}{1986}
       \field{dateera}{ce}
-      \true{nocite}
       \field{pages}{219\bibrangedash 231}
       \range{pages}{13}
     \endentry
