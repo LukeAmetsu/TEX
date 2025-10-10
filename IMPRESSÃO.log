@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.25)  10 OCT 2025 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.25)  10 OCT 2025 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1290,8 +1290,10 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-
-No file IMPRESSÃO.aux.
+ (./IMPRESSÃO.aux
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 19.
+)
 \openout1 = `IMPRESSÃO.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -1313,12 +1315,10 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 Package hyperref Info: Link coloring ON on input line 4.
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 4.
 LaTeX Info: Redefining \degres on input line 4.
 \myptabbox=\box77
 \myptabboxwidth=\skip288
-(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count571
 \scratchdimen=\dimen331
@@ -1541,9 +1541,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 l.27 
       [2
 
-]
-No file IMPRESSÃO.toc.
-
+] (./IMPRESSÃO.toc)
 
 [3]
 
@@ -1698,35 +1696,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                IMPRESSÃO
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'IMPRESSÃO.run.xml'.
 \openout1 = `IMPRESSÃO.run.xml'.
 
  ) ) 
 Here is how much of TeX's memory you used:
- 41452 strings out of 467799
- 783829 string characters out of 5436040
- 1858333 words of memory out of 5000000
- 69176 multiletter control sequences out of 15000+600000
- 690992 words of font info for 155 fonts, out of 8000000 for 9000
+ 41514 strings out of 467799
+ 784670 string characters out of 5436040
+ 1859778 words of memory out of 5000000
+ 69232 multiletter control sequences out of 15000+600000
+ 691121 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,13n,108p,2185b,4324s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on IMPRESSÃO.pdf (19 pages, 294298 bytes).
+Output written on IMPRESSÃO.pdf (19 pages, 303400 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
+ 402 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
  98 named destinations out of 1000 (max. 500000)
  37509 words of extra memory for PDF output out of 42996 (max. 10000000)
 
