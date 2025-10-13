@@ -19,35 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{ACI318:2014}{manual}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2dc5127888589d22a917be60280a6d72}{%
-           family={{American Concrete Institute}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Farmington Hills}%
-      }
-      \strng{namehash}{2dc5127888589d22a917be60280a6d72}
-      \strng{fullhash}{2dc5127888589d22a917be60280a6d72}
-      \strng{fullhashraw}{2dc5127888589d22a917be60280a6d72}
-      \strng{bibnamehash}{2dc5127888589d22a917be60280a6d72}
-      \strng{authorbibnamehash}{2dc5127888589d22a917be60280a6d72}
-      \strng{authornamehash}{2dc5127888589d22a917be60280a6d72}
-      \strng{authorfullhash}{2dc5127888589d22a917be60280a6d72}
-      \strng{authorfullhashraw}{2dc5127888589d22a917be60280a6d72}
-      \field{extraname}{1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{subtitle}{Building Code Requirements for Structural Concrete and Commentary}
-      \field{title}{{ACI} 318-14}
-      \field{year}{2014}
-      \true{nocite}
-    \endentry
     \entry{ACI318:2019}{manual}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2dc5127888589d22a917be60280a6d72}{%
@@ -65,7 +36,6 @@
       \strng{authornamehash}{2dc5127888589d22a917be60280a6d72}
       \strng{authorfullhash}{2dc5127888589d22a917be60280a6d72}
       \strng{authorfullhashraw}{2dc5127888589d22a917be60280a6d72}
-      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -182,129 +152,11 @@
       \field{volume}{14}
       \field{year}{2021}
       \field{dateera}{ce}
-      \true{nocite}
       \field{pages}{e14112}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1590/S1983-41952021000100012
       \endverb
-    \endentry
-    \entry{Cladera2016}{article}{}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=f13c13d503441c5e64facd211a0d1af7}{%
-           family={Cladera},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=25135c88bd0b2ed09e2473e2f153b558}{%
-           family={Marí},
-           familyi={M\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=09693baab25382978f58531eed31be00}{%
-           family={Bairán},
-           familyi={B\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b36d70198a8ea4aaa5433c89e89a7e7}{%
-           family={Ribas},
-           familyi={R\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9a4db997bb2dc30b23354584a2c46507}{%
-           family={Oller},
-           familyi={O\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4973b84fd9fe533bd52157eb1d715640}{%
-           family={Duarte},
-           familyi={D\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \strng{namehash}{f2b958313eac73f734faacc7f2c2017c}
-      \strng{fullhash}{72e25fceb126dae6c6ddd58bec326757}
-      \strng{fullhashraw}{72e25fceb126dae6c6ddd58bec326757}
-      \strng{bibnamehash}{72e25fceb126dae6c6ddd58bec326757}
-      \strng{authorbibnamehash}{72e25fceb126dae6c6ddd58bec326757}
-      \strng{authornamehash}{f2b958313eac73f734faacc7f2c2017c}
-      \strng{authorfullhash}{72e25fceb126dae6c6ddd58bec326757}
-      \strng{authorfullhashraw}{72e25fceb126dae6c6ddd58bec326757}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Structural Concrete}
-      \field{number}{6}
-      \field{title}{The compression chord capacity model for the shear design and assessment of reinforced and prestressed concrete beams}
-      \field{volume}{17}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{1017\bibrangedash 1032}
-      \range{pages}{16}
-    \endentry
-    \entry{Collins2008}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=600e5c249a20807a44f946c0018afd3c}{%
-           family={Collins},
-           familyi={C\bibinitperiod},
-           given={M.\bibnamedelimi P.},
-           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=646b7a82ab1090240e5bc5e52ec8a89f}{%
-           family={Bentz},
-           familyi={B\bibinitperiod},
-           given={E.\bibnamedelimi C.},
-           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ce9a3ec18cf96494adcb6cab4bf2d6fa}{%
-           family={Polak},
-           familyi={P\bibinitperiod},
-           given={M.\bibnamedelimi A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4eaa6ef50ce8baac81396dbdc88949d3}{%
-           family={Vecchio},
-           familyi={V\bibinitperiod},
-           given={F.\bibnamedelimi J.},
-           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{305b302f28db21b3aeb96b2c6e932298}
-      \strng{fullhash}{a16cdf3dbc593afdda02fb7a7ab61f17}
-      \strng{fullhashraw}{a16cdf3dbc593afdda02fb7a7ab61f17}
-      \strng{bibnamehash}{a16cdf3dbc593afdda02fb7a7ab61f17}
-      \strng{authorbibnamehash}{a16cdf3dbc593afdda02fb7a7ab61f17}
-      \strng{authornamehash}{305b302f28db21b3aeb96b2c6e932298}
-      \strng{authorfullhash}{a16cdf3dbc593afdda02fb7a7ab61f17}
-      \strng{authorfullhashraw}{a16cdf3dbc593afdda02fb7a7ab61f17}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Magazine of Concrete Research}
-      \field{number}{9}
-      \field{title}{An adequate theory for the shear strength of reinforced concrete structures}
-      \field{volume}{60}
-      \field{year}{2008}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{635\bibrangedash 650}
-      \range{pages}{16}
     \endentry
     \entry{CEN2004}{book}{}{}
       \name{author}{1}{}{%
@@ -333,38 +185,6 @@
       \field{year}{2004}
       \field{dateera}{ce}
     \endentry
-    \entry{FIB2013}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4f990ae309cc8dfd17e9e167bdc7c599}{%
-           family={{Fédération Internationale du Béton}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Berlin}%
-      }
-      \list{publisher}{1}{%
-        {Ernst \& Sohn}%
-      }
-      \strng{namehash}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \strng{fullhash}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \strng{fullhashraw}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \strng{bibnamehash}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \strng{authorbibnamehash}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \strng{authornamehash}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \strng{authorfullhash}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \strng{authorfullhashraw}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \field{extraname}{1}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{fib Model Code for Concrete Structures 2010}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \true{nocite}
-    \endentry
     \entry{FIB:2020}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f990ae309cc8dfd17e9e167bdc7c599}{%
@@ -385,7 +205,6 @@
       \strng{authornamehash}{4f990ae309cc8dfd17e9e167bdc7c599}
       \strng{authorfullhash}{4f990ae309cc8dfd17e9e167bdc7c599}
       \strng{authorfullhashraw}{4f990ae309cc8dfd17e9e167bdc7c599}
-      \field{extraname}{2}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -533,7 +352,6 @@
       \field{year}{1964}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \verb{urlraw}
       \verb http://retro.seals.ch/digbib/view?pid=bse-cr-001:1964:7::1948
       \endverb
@@ -590,54 +408,6 @@
       \field{year}{2021}
       \field{dateera}{ce}
     \endentry
-    \entry{Maues2020}{inproceedings}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=6f2493540430ac42ad9ad9e24768f4f9}{%
-           family={Maués},
-           familyi={M\bibinitperiod},
-           given={F.\bibnamedelimi P.},
-           giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=256bb8fe1c5476c9fc3fe68119b51030}{%
-           family={Andrade},
-           familyi={A\bibinitperiod},
-           given={L.\bibnamedelimi N.},
-           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=478a77dea3b99b7afce5bbdce9133c40}{%
-           family={Ferreira},
-           familyi={F\bibinitperiod},
-           given={M.\bibnamedelimi P.},
-           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Foz do Iguaçu}%
-      }
-      \list{publisher}{1}{%
-        {ABMEC}%
-      }
-      \strng{namehash}{3e24b5965387111f087afd06f65f91a2}
-      \strng{fullhash}{3e24b5965387111f087afd06f65f91a2}
-      \strng{fullhashraw}{3e24b5965387111f087afd06f65f91a2}
-      \strng{bibnamehash}{3e24b5965387111f087afd06f65f91a2}
-      \strng{authorbibnamehash}{3e24b5965387111f087afd06f65f91a2}
-      \strng{authornamehash}{3e24b5965387111f087afd06f65f91a2}
-      \strng{authorfullhash}{3e24b5965387111f087afd06f65f91a2}
-      \strng{authorfullhashraw}{3e24b5965387111f087afd06f65f91a2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Anais do XLI Ibero-Latin American Congress on Computational Methods in Engineering}
-      \field{note}{Online}
-      \field{title}{Análise de uma metodologia de modelagem proposta para lajes lisas de concreto armado sem e com armadura de cisalhamento}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \true{nocite}
-    \endentry
     \entry{Morsch1909}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=29076b0a06c2d36e703fc8cc3f96b945}{%
@@ -672,177 +442,50 @@
       \field{title}{Concrete-Steel Construction (Der Eisenbetonbau)}
       \field{year}{1909}
       \field{dateera}{ce}
-      \true{nocite}
     \endentry
-    \entry{Muttoni2008}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c3520ca962272093e524b918209f8667}{%
+    \entry{Muttoni2023}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3e019eca099e576cd14b70085502fffb}{%
            family={Muttoni},
            familyi={M\bibinitperiod},
-           given={A.},
+           given={Aurelio},
            giveni={A\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=f809cffa2170349b825899d6fbf9c771}{%
+           family={Simões},
+           familyi={S\bibinitperiod},
+           given={João\bibnamedelima Tiago},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
       }
-      \list{location}{1}{%
-        {Farmington Hills}%
+      \list{publisher}{1}{%
+        {IBRACON - Instituto Brasileiro do Concreto}%
       }
-      \strng{namehash}{c3520ca962272093e524b918209f8667}
-      \strng{fullhash}{c3520ca962272093e524b918209f8667}
-      \strng{fullhashraw}{c3520ca962272093e524b918209f8667}
-      \strng{bibnamehash}{c3520ca962272093e524b918209f8667}
-      \strng{authorbibnamehash}{c3520ca962272093e524b918209f8667}
-      \strng{authornamehash}{c3520ca962272093e524b918209f8667}
-      \strng{authorfullhash}{c3520ca962272093e524b918209f8667}
-      \strng{authorfullhashraw}{c3520ca962272093e524b918209f8667}
+      \strng{namehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{fullhash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{fullhashraw}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{bibnamehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authorbibnamehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authornamehash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authorfullhash}{f378aaa45afbc81f964ad2608dd1f358}
+      \strng{authorfullhashraw}{f378aaa45afbc81f964ad2608dd1f358}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{ACI Structural Journal}
-      \field{number}{4}
-      \field{title}{Punching shear strength of reinforced concrete slabs without transverse reinforcement}
-      \field{volume}{105}
-      \field{year}{2008}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{440\bibrangedash 450}
-      \range{pages}{11}
-    \endentry
-    \entry{Rinke2023}{incollection}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=468839997188dcec390d093453609653}{%
-           family={Rinke},
-           familyi={R\bibinitperiod},
-           given={Mario},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=a3acbcda099e7b7b1ef49ca5c4fef594}{%
-           family={Mascarenhas-Mateus},
-           familyi={M\bibinithyphendelim M\bibinitperiod},
-           given={João},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {CRC Press}%
-      }
-      \strng{namehash}{468839997188dcec390d093453609653}
-      \strng{fullhash}{468839997188dcec390d093453609653}
-      \strng{fullhashraw}{468839997188dcec390d093453609653}
-      \strng{bibnamehash}{468839997188dcec390d093453609653}
-      \strng{authorbibnamehash}{468839997188dcec390d093453609653}
-      \strng{authornamehash}{468839997188dcec390d093453609653}
-      \strng{authorfullhash}{468839997188dcec390d093453609653}
-      \strng{authorfullhashraw}{468839997188dcec390d093453609653}
-      \strng{editorbibnamehash}{a3acbcda099e7b7b1ef49ca5c4fef594}
-      \strng{editornamehash}{a3acbcda099e7b7b1ef49ca5c4fef594}
-      \strng{editorfullhash}{a3acbcda099e7b7b1ef49ca5c4fef594}
-      \strng{editorfullhashraw}{a3acbcda099e7b7b1ef49ca5c4fef594}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Changing Cultures: European Perspectives on the History of Portland Cement and Reinforced Concrete, 19th and 20th Centuries}
-      \field{chapter}{1.4}
-      \field{title}{Institutions Within a New Material: Early Reinforced Concrete in Switzerland and Germany}
+      \field{abstract}{The Critical Shear Crack Theory (CSCT) has been developed since 1985 to assess the shear resistance of members without shear reinforcement and the punching shear resistance of reinforced concrete slabs in a rational manner. The main idea of the CSCT is that the shear resistance is governed by the development of a critical shear crack, its geometry and its kinematics. Recent shear tests with detailed measurements have confirmed that the shear force can be carried through the critical shear crack by a combination of aggregate interlocking, residual tensile strength of concrete, dowel action of the longitudinal reinforcement, inclination of the compression zone and activation of the shear reinforcement crossed by the critical shear crack if present. On the basis of advanced constitute laws, all these contributions can be calculated as a function of the crack geometry and its kinematic. Simplifications of the resulting general formulations have been implemented in several standards including the fib Model Code 2010 and, in its recent closed-form format, in the second generation of the European Standard for Concrete Structures. The generality of the models allows accounting for several materials and cases, as for instance the presence of axial forces, fiber reinforced concrete, non-metallic reinforcements and designing strengthening using several techniques. This document presents the historical framework of the development of the theory, followed by a short presentation of its most up-to-date refined models. The derivation of closed-form solutions based on the CSCT and how it leads to expressions in a format similar to the current European Standard for Concrete Structures is also discussed. Eventually, for the case of punching, some recent developments are shown in what refers the capability of the refined mechanical model to capture the relationship between the acting punching load, the rotation and the shear deformation during loading and at failure.}
+      \field{issn}{19834195}
+      \field{issue}{3}
+      \field{journaltitle}{Revista IBRACON de Estruturas e Materiais}
+      \field{title}{Shear and punching shear according to the Critical Shear Crack Theory: background, recent developments and integration in codes}
+      \field{volume}{16}
       \field{year}{2023}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{109\bibrangedash 126}
-      \range{pages}{18}
       \verb{doi}
-      \verb 10.1201/9781003368656
+      \verb 10.1590/S1983-41952023000300002
       \endverb
-    \endentry
-    \entry{Ritter1899}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=57b5208b84ea87aedb27819a8956c095}{%
-           family={Ritter},
-           familyi={R\bibinitperiod},
-           given={Wilhelm},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Zürich}%
-      }
-      \list{publisher}{1}{%
-        {Zürcher \& Furrer}%
-      }
-      \strng{namehash}{57b5208b84ea87aedb27819a8956c095}
-      \strng{fullhash}{57b5208b84ea87aedb27819a8956c095}
-      \strng{fullhashraw}{57b5208b84ea87aedb27819a8956c095}
-      \strng{bibnamehash}{57b5208b84ea87aedb27819a8956c095}
-      \strng{authorbibnamehash}{57b5208b84ea87aedb27819a8956c095}
-      \strng{authornamehash}{57b5208b84ea87aedb27819a8956c095}
-      \strng{authorfullhash}{57b5208b84ea87aedb27819a8956c095}
-      \strng{authorfullhashraw}{57b5208b84ea87aedb27819a8956c095}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Sonder-Abdruck aus der "Schweizerischen Bauzeitung" 1899. Band XXXIII Nr. 5, 6 und 7}
-      \field{title}{Die Bauweise Hennebique}
-      \field{year}{1899}
-      \field{dateera}{ce}
-      \true{nocite}
-    \endentry
-    \entry{Rombach2011}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=6140f0724db188409ad693e6f8aac41a}{%
-           family={Rombach},
-           familyi={R\bibinitperiod},
-           given={G.\bibnamedelimi A.},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e5cc28f8309389a2680c56b7e535d33d}{%
-           family={Kohl},
-           familyi={K\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e31c34587a8137a2f5b20ecb780cd020}{%
-           family={Nghiep},
-           familyi={N\bibinitperiod},
-           given={V.\bibnamedelimi H.},
-           giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Amsterdam}%
-      }
-      \strng{namehash}{eb614e5fdb8f200147c363afe3777b17}
-      \strng{fullhash}{eb614e5fdb8f200147c363afe3777b17}
-      \strng{fullhashraw}{eb614e5fdb8f200147c363afe3777b17}
-      \strng{bibnamehash}{eb614e5fdb8f200147c363afe3777b17}
-      \strng{authorbibnamehash}{eb614e5fdb8f200147c363afe3777b17}
-      \strng{authornamehash}{eb614e5fdb8f200147c363afe3777b17}
-      \strng{authorfullhash}{eb614e5fdb8f200147c363afe3777b17}
-      \strng{authorfullhashraw}{eb614e5fdb8f200147c363afe3777b17}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Procedia Engineering}
-      \field{title}{Shear Design of Concrete Members without Shear Reinforcement---A Solved Problem?}
-      \field{volume}{14}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \true{nocite}
-      \field{pages}{134\bibrangedash 140}
-      \range{pages}{7}
+      \keyw{codes,levels-of-approximation,mechanical model,punching shear,shear}
     \endentry
     \entry{Vecchio1986}{article}{}{}
       \name{author}{2}{}{%
