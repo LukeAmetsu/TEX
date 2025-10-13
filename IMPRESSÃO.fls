@@ -518,9 +518,6 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
-INPUT ./IMPRESSÃO.toc
-INPUT ./IMPRESSÃO.toc
-INPUT IMPRESSÃO.toc
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
@@ -541,7 +538,6 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 OUTPUT IMPRESSÃO.toc
 INPUT IMPRESSÃO.aux
-INPUT IMPRESSÃO.run.xml
 OUTPUT IMPRESSÃO.run.xml
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb

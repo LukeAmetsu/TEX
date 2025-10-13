@@ -1,24 +1,23 @@
 # Fdb version 4
-["biber IMPRESSÃO"] 1760129836.41195 "IMPRESSÃO.bcf" "IMPRESSÃO.bbl" "IMPRESSÃO" 1760137515.89548 0
-  "IMPRESSÃO.bcf" 1760137515 116550 6ebfaa72deeac95f4c840d44a32dd585 "pdflatex"
+["biber IMPRESSÃO"] 1760129836.41195 "IMPRESSÃO.bcf" "IMPRESSÃO.bbl" "IMPRESSÃO" 1760137519.39369 0
+  "IMPRESSÃO.bcf" 1760137519 116550 6ebfaa72deeac95f4c840d44a32dd585 "pdflatex"
   "REFERENCIAS.bib" 1760129826 9908 59403ee5c3a0647706cb5e0edcabc100 ""
   (generated)
   "IMPRESSÃO.bbl"
   "IMPRESSÃO.blg"
   (rewritten before read)
-["makeindex IMPRESSÃO.idx"] 1760137512.57232 "IMPRESSÃO.idx" "IMPRESSÃO.ind" "IMPRESSÃO" 1760137515.88288 0
-  "IMPRESSÃO.idx" 1760137514 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex IMPRESSÃO.idx"] 1760137512.57232 "IMPRESSÃO.idx" "IMPRESSÃO.ind" "IMPRESSÃO" 1760137519.38189 0
+  "IMPRESSÃO.idx" 1760137517 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "IMPRESSÃO.ilg"
   "IMPRESSÃO.ind"
   (rewritten before read)
-["pdflatex"] 1760137513.03109 "c:/Users/lucas.barros/Downloads/TEX/IMPRESSÃO.tex" "IMPRESSÃO.pdf" "IMPRESSÃO" 1760137515.88357 2
-  "IMPRESSÃO.aux" 1760137515 13515 6439364cddb549e08af290c2a7c4f32c "pdflatex"
+["pdflatex"] 1760137516.49427 "c:/Users/lucas.barros/Downloads/TEX/IMPRESSÃO.tex" "IMPRESSÃO.pdf" "IMPRESSÃO" 1760137519.38266 2
+  "IMPRESSÃO.aux" 1760137519 13512 c1f37c106e7a8aacfdea5dcd485a1843 "pdflatex"
   "IMPRESSÃO.bbl" 1760129838 41264 8c7529d12f5606ce37552192d3813faa "biber IMPRESSÃO"
-  "IMPRESSÃO.ind" 1760137513 0 d41d8cd98f00b204e9800998ecf8427e "makeindex IMPRESSÃO.idx"
-  "IMPRESSÃO.run.xml" 1760137515 2650 492a69867cf3deec1489f34c9e9acefd "pdflatex"
+  "IMPRESSÃO.ind" 0 -1 0 "makeindex IMPRESSÃO.idx"
   "IMPRESSÃO.tex" 1759956330 1438 cc9285d7d79d6530b043a3070a661a56 ""
-  "IMPRESSÃO.toc" 1760137515 2210 5cdcf86759b4fc3515ab9c6bbddd8149 "pdflatex"
+  "IMPRESSÃO.toc" 1760137519 2210 5cdcf86759b4fc3515ab9c6bbddd8149 "pdflatex"
   "c:/Users/lucas.barros/Downloads/TEX/IMPRESSÃO.tex" 1759956330 1438 cc9285d7d79d6530b043a3070a661a56 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1756144083 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1756144083 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
