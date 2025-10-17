@@ -256,6 +256,37 @@
       \field{year}{1975}
       \field{dateera}{ce}
     \endentry
+    \entry{IBRACON2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce014765cabea6334db1a63c6165721e}{%
+           family={{Instituto Brasileiro do Concreto (IBRACON)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {IBRACON}%
+      }
+      \strng{namehash}{ce014765cabea6334db1a63c6165721e}
+      \strng{fullhash}{ce014765cabea6334db1a63c6165721e}
+      \strng{fullhashraw}{ce014765cabea6334db1a63c6165721e}
+      \strng{bibnamehash}{ce014765cabea6334db1a63c6165721e}
+      \strng{authorbibnamehash}{ce014765cabea6334db1a63c6165721e}
+      \strng{authornamehash}{ce014765cabea6334db1a63c6165721e}
+      \strng{authorfullhash}{ce014765cabea6334db1a63c6165721e}
+      \strng{authorfullhashraw}{ce014765cabea6334db1a63c6165721e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{note}{Coordenação de Suely Bueno e Alio Kimura}
+      \field{title}{{ABNT NBR 6118:2014}: comentários e exemplos de aplicação}
+      \field{year}{2020}
+    \endentry
     \entry{Kuchma2019}{article}{}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=9f4803223bd7bab61ad290b44801df45}{%
@@ -442,6 +473,50 @@
       \field{title}{Concrete-Steel Construction (Der Eisenbetonbau)}
       \field{year}{1909}
       \field{dateera}{ce}
+    \endentry
+    \entry{Muttoni2017}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3e019eca099e576cd14b70085502fffb}{%
+           family={Muttoni},
+           familyi={M\bibinitperiod},
+           given={Aurelio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7edefda75ae3cf426accec4af0d3ee62}{%
+           family={Fernández\bibnamedelima Ruiz},
+           familyi={F\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c75cd28152b4cc8e6e3c5aed5f81acbc}{%
+           family={Simões},
+           familyi={S\bibinitperiod},
+           given={João\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \strng{fullhash}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \strng{fullhashraw}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \strng{bibnamehash}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \strng{authorbibnamehash}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \strng{authornamehash}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \strng{authorfullhash}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \strng{authorfullhashraw}{0aa23d144714adb23ec4ea6cd0b0bb42}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Structural Concrete}
+      \field{title}{{The theoretical principles of the critical shear crack theory for punching shear failures and derivation of consistent closed-form design expressions}}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1002/suco.201700088
+      \endverb
     \endentry
     \entry{Muttoni2023}{misc}{}{}
       \name{author}{2}{}{%
